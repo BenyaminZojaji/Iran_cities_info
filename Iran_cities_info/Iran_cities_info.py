@@ -10,6 +10,10 @@ def get_completeData(lang: str='en'):
     '''
     file_path = os.path.join('Iran_cities_info', 'assets', f'iran_cities_en.json') # need fix
     print(os.path.isfile(file_path))
+    print(os.path.isfile(os.path.join('assets', 'iran_cities_en.json')))
+    print(os.path.isfile(os.path.join('iran_cities_en.json')))
+    print(os.path.isfile('Iran_cities_info/assets/iran_cities_en.json'))
+    print(os.path.isfile('assets/iran_cities_en.json'))
     with open(file_path) as f:
         return json.load(f)
 
