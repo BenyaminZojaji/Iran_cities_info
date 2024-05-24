@@ -8,6 +8,7 @@ def get_completeData(lang: str='en'):
     Get complete json data.
     lang = en | fa
     '''
+    print(os.getcwd())
     file_path = os.path.join('Iran_cities_info', 'assets', f'iran_cities_{lang}.json')
     with open(file_path) as f:
         return json.load(f)
@@ -84,4 +85,4 @@ def joke():
 
 ## ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
 
-# print(get_completeData())
+print(get_completeData())
