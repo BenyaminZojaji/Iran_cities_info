@@ -1,6 +1,6 @@
 import os
 import json
-import Iran_cities_info.check
+# import Iran_cities_info.check
 
 
 def get_completeData(lang: str='en'): 
@@ -29,7 +29,7 @@ def get_coordinates(_city: str='', lang: str='en'):
 
     lang = en | fa
     '''
-    if not check.empty_argument(_city):
+    if not empty_argument(_city):
         return {'error': 'empty argument'}
     
     data = get_completeData(lang=lang)
@@ -45,7 +45,7 @@ def search_province(_province: str='', lang: str='en'):
 
     lang = en | fa
     '''
-    if not check.empty_argument(_province):
+    if not empty_argument(_province):
         return {'error': 'empty argument'}
     
     data = get_completeData(lang=lang)
@@ -60,7 +60,7 @@ def search_center(_center: str='', lang: str='en'):
 
     lang = en | fa
     '''
-    if not check.empty_argument(_center):
+    if not empty_argument(_center):
         return {'error': 'empty argument'}
     
     data = get_completeData(lang=lang)
@@ -72,7 +72,8 @@ def search_center(_center: str='', lang: str='en'):
 # def search_byPrefix():
 #     ...
 
-
+def empty_argument(argument):
+    return False if argument=='' else True
 
 ## ---------- This part is only for my classroom assignment, It will be remove in future ----------
 import wikipedia 
