@@ -9,7 +9,7 @@ def get_completeData(lang: str='en'):
     lang = en | fa
     '''
     print(os.getcwd())
-    file_path = os.path.join('Iran_cities_info', 'assets', f'iran_cities_{lang}.json')
+    file_path = os.path.join('assets', f'iran_cities_{lang}.json')
     with open(file_path) as f:
         return json.load(f)
 
