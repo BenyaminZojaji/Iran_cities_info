@@ -21,14 +21,14 @@ pre_install()
 
 
 setup(
-    name='Iran-cities-info',
+    name='Iran_cities_info',
     version='0.1.0',
     description='Iran cities Information: python package to represent Iran\'s province and city information.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    packages=["Iran-cities-info"],
+    packages=["Iran_cities_info"],
     setup_requires=[],
-    url='https://github.com/BenyaminZojaji/Iran-cities-info',
+    url='https://github.com/BenyaminZojaji/Iran_cities_info',
     license='',
     author='Benyamin Zojaji',
     author_email='benyamin.zojaji@gmail.com',
