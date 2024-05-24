@@ -1,6 +1,6 @@
 import os
 import json
-import check
+import Iran_cities_info.check
 
 
 def get_completeData(lang: str='en'): 
