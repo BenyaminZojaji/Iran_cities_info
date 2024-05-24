@@ -1,1 +1,1 @@
-from .check import empty_argument
+# from .check import empty_argument
