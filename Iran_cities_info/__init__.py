@@ -1,1 +1,1 @@
-import Iran_cities_info.check as check
+import Iran_cities_info
