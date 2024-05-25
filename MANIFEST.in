@@ -2,4 +2,6 @@ include *.md
 include requirements.txt
 
 include setup.py
-graft dir Iran_cities_info/assets
+
+include Iran_cities_info\assets\iran_cities_en.json
+
