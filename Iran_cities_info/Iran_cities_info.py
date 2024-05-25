@@ -16,6 +16,8 @@ def get_completeData(lang: str='en'):
     print(os.path.isfile('assets/iran_cities_en.json'))
     print(os.path.isfile('iran_cities_en.json'))
     print(os.path.isfile('Iran_cities_info/iran_cities_en.json'))
+    print(os.path.isfile('iran_cities_en.json'))
+    
     with open(file_path) as f:
         return json.load(f)
 
