@@ -10,7 +10,7 @@ def get_completeData(lang: str='en'):
     lang = en | fa
     '''
     absPath = pathlib.Path(__file__).parent.resolve()
-    file_path = os.path.join(f'{absPath}', 'assets', 'iran_cities_en.json')
+    file_path = os.path.join(f'{absPath}', 'assets', f'iran_cities_{lang}.json')
     
     with open(file_path) as f:
         return json.load(f)
