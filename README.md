@@ -35,4 +35,4 @@ Iran_cities_info.get_coordinates(_city='Shiraz')
 - [ ] Add the area of cities and provinces
 
 
-<a href="buymeacoffee.com/benyaminzojaji" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://buymeacoffee.com/benyaminzojaji" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
