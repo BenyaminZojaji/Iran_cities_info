@@ -1,5 +1,6 @@
 import os
 import json
+import pathlib
 # import check
 
 
@@ -8,15 +9,8 @@ def get_completeData(lang: str='en'):
     Get complete json data.
     lang = en | fa
     '''
-    file_path = os.path.join('Iran_cities_info', 'assets', f'iran_cities_en.json') # need fix
-    print(os.path.isfile(file_path))
-    print(os.path.isfile(os.path.join('assets', 'iran_cities_en.json')))
-    print(os.path.isfile(os.path.join('iran_cities_en.json')))
-    print(os.path.isfile('Iran_cities_info/assets/iran_cities_en.json'))
-    print(os.path.isfile('assets/iran_cities_en.json'))
-    print(os.path.isfile('iran_cities_en.json'))
-    print(os.path.isfile('Iran_cities_info/iran_cities_en.json'))
-    print(os.path.isfile('iran_cities_en.json'))
+    absPath = pathlib.Path(__file__).parent.resolve()
+    file_path = os.path.join(f'{absPath}', 'assets', 'iran_cities_en.json')
     
     with open(file_path) as f:
         return json.load(f)
