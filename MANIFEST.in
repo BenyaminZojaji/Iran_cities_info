@@ -2,3 +2,5 @@ include *.md
 include requirements.txt
 
 include setup.py
+include Iran_cities_info/assets
+include *.json
