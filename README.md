@@ -2,6 +2,7 @@
 
 [![Upload Python Package](https://github.com/BenyaminZojaji/Iran_cities_info/actions/workflows/python-publish.yml/badge.svg)](https://github.com/BenyaminZojaji/Iran_cities_info/actions/workflows/python-publish.yml)
 [![Python package](https://github.com/BenyaminZojaji/Iran_cities_info/actions/workflows/python-package.yml/badge.svg)](https://github.com/BenyaminZojaji/Iran_cities_info/actions/workflows/python-package.yml)
+[![Downloads](https://static.pepy.tech/badge/Iran-cities-info)](https://pepy.tech/project/Iran-cities-info)
 
 python package to represent Iran's province and city information. 
 
