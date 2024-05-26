@@ -22,7 +22,7 @@ pre_install()
 
 setup(
     name='Iran_cities_info',
-    version='0.1.2',
+    version='0.1.0',
     description='Iran cities Information: python package to represent Iran\'s province and city information.',
     long_description=long_description,
     long_description_content_type='text/markdown',
